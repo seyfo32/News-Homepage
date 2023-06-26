@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav id="closed-mobil-menu" class="mobil-menu">
+        <img onclick="closeMenu()" src="./assets/images/icon-menu-close.svg" alt="">
+        <ul >
+            <li>Home</li>
+            <li>New</li>
+            <li>Popular</li>
+            <li>Trending</li>
+            <li>Categories</li>
+        </ul>
+    </nav>
+    <div id="opacity-background"  class="background"></div>
+    <div class="container ">
+        <div class="content">
+            <header class="first-bar">
+
+                <nav>
+                    <ul class="menu-list pad-bot2 ">
+                        <li>Home</li>
+                        <li>New</li>
+                        <li>Popular</li>
+                        <li>Trending</li>
+                        <li>Categories</li>
+                    </ul>
+                </nav>
+
+               
+                <img class="pad-bot" id="logo" src="./assets/images/logo.svg" alt="">
+              <img  onclick="openMenu()"  id="menu-butt" src="./assets/images/icon-menu.svg" alt="">
+
+
+            </header>
+
+
+
+            <div class="flex-box">
+                <div class="column">
+                    <div class="cart-image"><img src="./assets/images/image-web-3-mobile.jpg" alt=""></div>
+                    <div class="flex-box ">
+                        <h1 class="cart-header ">The Bright Future of Web 3.0?</h1>
+                        <div class="column pad ">
+                            <p class="cart-text">We dive into the next evolution of the web that claims to put the power
+                                of the
+                                platforms back into the hands of the people.
+                                But is it really fulfilling its promise?</p>
+
+                            <button class="rm-button">Read more
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="news-con ">
+
+
+
+                    <h2 class="new-header pad-bot2"> New </h2>
+                    <div class=" pad-bot">
+                        <h3 class="news-headers"> Hydrogen VS Electric Cars</h3>
+                        <p class="news-texts">Will hydrogen-fueled cars ever catch up to EVs?</p>
+                    </div>
+                    <hr class="lines">
+                    <div class=" pad-bot2">
+                        <h3 class="news-headers"> The Downsides of AI Artistry</h3>
+                        <p class="news-texts">What are the possible adverse effects of on-demand AI image generation?
+                        </p>
+                    </div>
+                    <hr class="lines">
+                    <div class="pad-bot2 ">
+                        <h3 class="news-headers"> Is VC Funding Drying Up?</h3>
+                        <p class="news-texts">Private funding by VC firms is down 50% YOY. We take a look at what that
+                            means.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-box ">
+                <div class="last-carts">
+                    <img src="./assets/images/image-retro-pcs.jpg" alt="">
+                    <div class="last-contents ">
+                        <h2 class="news-numbers">01</h2>
+                        <h3 class="last-news-headers">Reviving Retro PCs</h3>
+                        <p class="last-news-texts">What happens when old PCs are given modern upgrades?</p>
+                    </div>
+
+                </div>
+                <div class="last-carts marg-left7 ">
+                    <img src="./assets/images/image-top-laptops.jpg" alt="">
+                    <div class="last-contents ">
+                        <h2 class="news-numbers">02</h2>
+                        <h3 class="last-news-headers">Top 10 Laptops of 2022</h3>
+                        <p class="last-news-texts">Our best picks for various needs and budgets.</p>
+                    </div>
+
+                </div>
+                <div id="LL-CART" class="last-carts marg-left7 ">
+                    <img src="./assets/images/image-gaming-growth.jpg" alt="">
+                    <div class="last-contents ">
+                        <h2 class="news-numbers">03</h2>
+                        <h3 class="last-news-headers"> The Growth of Gaming</h3>
+                        <p class="last-news-texts"> How the pandemic has sparked fresh opportunities.</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="#">Seyfullah Bozkurt</a>.
+    </div>
+    <script src="index.js"> </script>
+</body>
+
+</html>
